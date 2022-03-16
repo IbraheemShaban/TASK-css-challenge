@@ -1,11 +1,23 @@
 /* Add your code in each class */
 .container {
+  height: 300px;
+  width: 400px;
+  overflow: scroll;
 }
 .head {
+  background-color: #ce6c1a;
+  font-family: monospace;
+  color: black;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  text-align: center;
 }
 
 .row {
   /* .row is used in ./index.js not in the html filee */
+  background-color: #f2f3af;
+  overflow: scroll;
 }
 
 /* This is a gift - Does not need editing */
